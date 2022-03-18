@@ -1,0 +1,21 @@
+from turtle import*
+import random
+
+speed(0)
+
+def dr():
+    r=random.randint(0,255)
+    g=random.randint(0,255)
+    b=random.randint(0,255)
+    colormode(255)
+    fillcolor(r,g,b)
+    begin_fill()
+    for i in range(8):
+        fd(200)
+        lt(90)
+    end_fill()
+for j in range(18):
+    dr()
+    goto(0,0)
+    lt(20)
+done()
