@@ -1,2 +1,8 @@
 price =10 
+price1 = True
+price2 = 6.3
+price3 = 'Python'
 print(price)
+print(price1)
+print(price2)
+print(price3)
