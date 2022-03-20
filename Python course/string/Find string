@@ -1,0 +1,2 @@
+course = 'python for beginner '
+print(course.find('n'))
