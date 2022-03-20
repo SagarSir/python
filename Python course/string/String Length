@@ -1,2 +1,2 @@
-course = 'pythom for beginner '
+course = 'python for beginner '
 print(len(course))
