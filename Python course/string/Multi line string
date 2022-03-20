@@ -1,0 +1,14 @@
+string= '''
+Hi John,
+Here is your first email to you.
+
+
+Thank you,
+The support team 
+
+
+
+
+'''
+
+print(string)
