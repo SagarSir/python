@@ -1,0 +1,7 @@
+print(10+3)   //add
+print(10-3)   //subtract
+print(10*3)   //multiply
+print(10**3)  // square power
+print(10/3)   // divide in float 
+print(10//3)   // divide in int 
+print(10%3)    // remainder
