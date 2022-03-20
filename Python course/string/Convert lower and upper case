@@ -1,0 +1,4 @@
+course = 'python for beginner '
+
+print(course.upper())
+print(course.lower())
