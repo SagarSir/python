@@ -1,0 +1,12 @@
+correct_no =9
+init_no=1
+final_no=4
+while init_no<final_no:
+    guess_no = int(input("Guess :"))
+    init_no+=1
+    if(guess_no==correct_no) :
+        print("Correct")
+        break
+else :
+    print("You Failed..")
+    
