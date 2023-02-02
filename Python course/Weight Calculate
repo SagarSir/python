@@ -1,0 +1,11 @@
+wt=input("enter your weight ")
+user =input('(L)bs or (K)g :')
+
+if(user.upper() =="L"):
+    cal_wt=int(wt)*0.45
+    print(f"Your weight in kg is {cal_wt}")
+elif(user.upper() =="K"):
+    cal_wt=int(wt)/0.45
+    print(f"Your weight in Pound is {cal_wt}")
+else :
+    print("Enter valid keyword.")

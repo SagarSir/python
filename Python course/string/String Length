@@ -1,0 +1,2 @@
+course = 'python for beginner '
+print(len(course))

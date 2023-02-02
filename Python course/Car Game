@@ -1,0 +1,76 @@
+accident_speed =100
+brake_speed =120
+children_speed =80
+god_speed =150
+slow_speed = 40
+started=False
+while True:
+    character = input(">").lower()
+    if(character=="start"):
+        if started :
+            print("Car already started .")
+        else :
+            started =True
+            print("car is start .")
+            started_in=input("forward or backward").lower()
+            if started_in=="forward":
+                print("Car moves forward")
+            elif started_in=="backward":
+                print("car move backward.")
+            else :
+                print("you hit man")
+        
+    elif(character=="stop"):
+        if not started:
+            print("Car already stopped.")
+        else :
+            started =False
+            print("car is stopped ..")
+    elif(character=="help"):
+        print(""" 
+ start - for start car 
+ stop - for stop car 
+ help - for to get info about instruction 
+ quite -to exit game 
+ speed - to control car""")
+    elif(character=="quite"):
+        break
+    elif(character=="speed"):
+        if started==True :
+            user =int(input("Enter speed :"))
+            if (user == brake_speed) :
+                print("Press brake . Otherwise accident may occur .")
+            elif (user == children_speed):
+                print("Slow down children there .")
+            elif (user < slow_speed):
+                print("Dai dherai chito vayna rw .")
+            elif(user > god_speed):
+                    print("Dear god i will see you in few sec .")
+            elif(user==accident_speed):
+                    print("Accident happen :")
+                    break
+            else :
+                    print("What a car .")
+        else :
+            print("start car first")
+
+    else :
+        print("sorry....")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

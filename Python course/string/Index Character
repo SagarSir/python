@@ -1,0 +1,3 @@
+string = 'python is "hard"'
+print(string[0:])
+

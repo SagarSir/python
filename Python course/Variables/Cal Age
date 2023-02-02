@@ -1,0 +1,4 @@
+birth_year =input('birth year :')
+age = 2022 - float(birth_year)
+print(age)
+print(type(age))
